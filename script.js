@@ -1,4 +1,3 @@
-// Variáveis para os elementos
 const editarBtn = document.getElementById('editarBtn');
 const menuEdicao = document.getElementById('menuEdicao');
 const mudarNomeBtn = document.getElementById('mudarNome');
@@ -23,7 +22,7 @@ mudarNomeBtn.addEventListener('click', () => {
 
 // Mudar cor do perfil
 mudarCorBtn.addEventListener('click', () => {
-    const novaCor = prompt('Escolha uma cor para o perfil (ex: #ff6347, red, blue):');
+    const novaCor = prompt('Escolha uma cor (ex: red, blue, #ff6347):');
     if (novaCor) {
         fotoPerfil.style.backgroundColor = novaCor;
     }
