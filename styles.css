@@ -1,0 +1,50 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+}
+
+#perfil {
+    margin-top: 30px;
+    border: 2px solid #333;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+#foto {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
